@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{835B7E7D-5E1B-4A93-80CA-DE553F233733}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6B7A64CA-340A-43E0-A119-2998E2020CEA}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NewInCSharp", "src\NewInCSharp\NewInCSharp.xproj", "{6CB96CEC-F65B-40B6-A52F-B0EBB36EED14}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Delta6", "src\Delta6\Delta6.xproj", "{A43CBCEE-B93A-4F8D-BD9E-69688AED1F46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CB96CEC-F65B-40B6-A52F-B0EBB36EED14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB96CEC-F65B-40B6-A52F-B0EBB36EED14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB96CEC-F65B-40B6-A52F-B0EBB36EED14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB96CEC-F65B-40B6-A52F-B0EBB36EED14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43CBCEE-B93A-4F8D-BD9E-69688AED1F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43CBCEE-B93A-4F8D-BD9E-69688AED1F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43CBCEE-B93A-4F8D-BD9E-69688AED1F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43CBCEE-B93A-4F8D-BD9E-69688AED1F46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CB96CEC-F65B-40B6-A52F-B0EBB36EED14} = {835B7E7D-5E1B-4A93-80CA-DE553F233733}
+		{A43CBCEE-B93A-4F8D-BD9E-69688AED1F46} = {835B7E7D-5E1B-4A93-80CA-DE553F233733}
+	EndGlobalSection
+EndGlobal

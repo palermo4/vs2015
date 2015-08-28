@@ -100,7 +100,7 @@ namespace AspNet5beta6
         {
             loggerFactory.MinimumLevel = LogLevel.Information;
             loggerFactory.AddConsole();
-
+            
             // Configure the HTTP request pipeline.
 
             // Add Application Insights to the request pipeline to track HTTP request telemetry data.
