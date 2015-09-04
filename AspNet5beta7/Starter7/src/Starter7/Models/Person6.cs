@@ -8,8 +8,11 @@ namespace Starter7.Models
         // auto property initializer
         public string FirstName { get; set; } = "John";
         public string LastName { get; set; } = "Doe";
+        // read-only property with expression body
         public string FullName => $"{FirstName} {LastName}";
+        // method with expression body
         public string GetLastNameFirst() => $"{LastName.ToUpper()}, {FirstName}";
+        // method using static and more string interpolation
         public string GetTestData(string testName)
         {
             var dashLength = 25 - testName.Length;
